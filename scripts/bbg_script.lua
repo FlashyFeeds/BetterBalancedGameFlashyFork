@@ -3388,7 +3388,7 @@ function Initialize()
 	print("BBG Domination Victory Hook Added")
 	-- monk spread
 	GameEvents.OnCombatOccurred.Add(OnMonkCombatOccurred);
-	print("BBG Monk Hook Added")
+	print("BBG Monk Spread Hook Added")
 	-- upgradable uu exp bug fix
 	LuaEvents.UIPromotionFixExp.Add(OnUIPromotionFixExp)
 	GameEvents.GameplayPromotionFixExp.Add(OnGameplayPromotionFixExp)
